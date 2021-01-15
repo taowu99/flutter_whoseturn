@@ -69,7 +69,7 @@ class ItemListState extends State {
 
   Color getColor(int position) {
     int turn = toolbox.getTurn(_items.length);
-    debugPrint(turn.toString() + " ?= " + position.toString());
+    // debugPrint(turn.toString() + " ?= " + position.toString());
     return turn == position ? Colors.white : Colors.lightBlue;
   }
 }
